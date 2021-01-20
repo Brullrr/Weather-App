@@ -66,7 +66,7 @@ const checkWeatherBackground = (backgroundType) => {
 
         break;
         case 'Snow' :
-            sunnyContainer.style.display = 'flex';
+            sunnyContainer.style.display = 'none';
             mistContainer.style.display = 'none';
             rainContainer.style.display = 'none';
             cloudsContainer.style.display = 'none';
