@@ -231,9 +231,9 @@ of rain using keyframes*/
 
 /*Now just a opacity animation*/
 .flashit{
--webkit-animation: flash ease-out 5s infinite;
--moz-animation: flash ease-out 5s infinite;
-animation: flash ease-out 5s infinite;
+-webkit-animation: flash ease-out 4s infinite;
+-moz-animation: flash ease-out 4s infinite;
+animation: flash ease-out 4s infinite;
 animation-delay: 2s;
 }
 
@@ -836,6 +836,51 @@ animation-delay: 2s;
     animation-delay:23.75s,23.75s
   } 
 
+
+
+  @media only screen and (max-width: 800px) {
+
+    .displayForm {
+      position: fixed;
+      display: inline-block;
+      background-color: rgba(5, 5, 5, 0.9);
+      border-radius: 8px;
+      text-align: center;
+      color:rgb(247, 241, 241);
+      width: 250px;
+      padding: 10px;
+      
+      top: 15%;
+      margin-left: -125px;
+      z-index: 2;
+  }
+
+    .clouds {
+      background-image: url('Images/clouds.jpg');
+      height: device-height;
+      width: 100%;
+      animation: none;
+ }
+ .mist {
+  background-image: url('Images/mist.png');
+  height: device-height;
+  width: 100%;
+  animation: none;
+}
+.snow {
+  background-image: url(Images/SnowMobile.jpg);
+  height: 100vh;
+  background-repeat: none;
+  background-size: 100% 100%;
+  display: flex;
+  display: none;
+}
+
+
+    .snowflake {
+      display: none;
+    }
+  }
 
 
 

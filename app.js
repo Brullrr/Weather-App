@@ -83,7 +83,7 @@ const checkWeatherBackground = (backgroundType) => {
         break;
     }
 }
-// checkWeatherBackground('Clear')
+//  checkWeatherBackground('Snow')
 // setTimeout(()=>{
 //     checkWeatherBackground('Clouds')
 // }, 4000)
